@@ -6,21 +6,11 @@ for($l=1; $l<=$layer; $l++)
 {
 for($r=1; $r<=$row; $r++)
 {
-    for($j=1; $j<=$r; $r++)
+    for($j=1; $j<=$r; $j++)
     {
     echo "* ";
 }
-    echo "<br>";
+echo "<br>";
 }
 }
 ?>
-
-//for ($l = 1; $l <= $layers; $l++) {
-        //for ($i = 1; $i <= $rows; $i++) {
-            //for ($j = 1; $j <= $i; $j++) {
-              //  echo "* ";
-            //}
-            //echo "<br>";
-        //}
-    //}
-//}
