@@ -1,0 +1,196 @@
+body {
+    margin: 0;
+    padding: 0 0 0 0;
+    background-color:#ffffff; /* สีพื้นหลังส่วนอื่นของเว็บ */
+}
+
+p {padding:0 0 0 50px;}
+ul li {display:inline;}
+a { text-decoration: none;}
+
+.header {
+    background-color: #b56663;  /* สีเฉพาะด้านบน */
+    text-align: center;       /* จัดเนื้อหาให้อยู่ตรงกลาง */
+    padding: 20px 0;          /* เว้นระยะด้านบน-ล่าง */
+}
+
+
+.header img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;  /* ขนาดรูปไม่เกิน 80% ของ header */
+    height: auto;
+}
+
+.main {text-emphasis: none;
+text-align: center;
+padding: 20px 20px 20px 20px;
+border:1px solid #dddddd;
+margin: 30px 30px 0 30px;}
+
+.home a{ color:rgb(123, 216, 185);
+padding: 20px;
+font-weight: bold;}
+
+.fea {text-align:left;
+color:#ffffff;
+border: 1px solid #000000;
+padding: 0px 0 0px 0px;
+background-color: #333333;
+margin: 0 0 0 0;}
+
+.fea img {
+    width:100%;
+    box-sizing: border-box;
+}
+
+.macake {
+    background-color: #b56663;  
+    text-align: center;      
+    padding: 10 10 10 10; 
+    margin: 5;        
+}
+
+.macake a{ color: #ffffff;}
+
+
+.macake img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;  /* ขนาดรูปไม่เกิน 80% ของ header */
+    height: auto;
+}
+
+.backcake {
+    background-color: #5f5f5f;
+    background-image: url(back1.jpg);
+    background-position: top left;
+    background-repeat: repeat-y;
+}
+
+.magiccake {text-align: center;
+padding: 20px 20px 20px 20px;
+border:1px solid #dddddd;
+margin: 30px 30px 0 30px;
+background:white;
+color: rgb(66, 233, 219);}
+
+.para1 {
+    text-align: left;
+    color: #000000;
+}
+
+.para2 {
+    text-align: left;
+    color: #000000;
+}
+
+.ingre {text-align: left;}
+
+.ingre2 li{
+text-align: left;
+color: #000000;
+display: list-item;}
+
+.direc {text-align: left;}
+
+.direc2 li{
+text-align: left;
+color: #000000;
+display: list-item;
+}
+
+.recipes {
+    background-color: #b56663;  
+    text-align: center;      
+    padding: 10 10 10 10; 
+    margin: 0;        
+}
+
+.recipes a{ color: #ffffff;}
+
+
+.recipes img {
+    display: block;
+    margin: 0 auto;
+    max-width: 50%;  /* ขนาดรูปไม่เกิน 80% ของ header */
+    height: auto;
+}
+
+.re {
+    text-align: center;
+padding: 20px 20px 20px 20px;
+border:1px solid #5f5f5f;
+margin: 30px 30px 0 30px;
+background:white;
+color: rgb(66, 233, 219);
+}
+
+.re a{
+    color: aquamarine;
+}
+
+.p2 h3{
+    text-align: left;
+}
+
+.p2 p{
+    text-align: left;
+    color: #000000;
+    padding-left: 0;
+}
+
+.p1 {
+    width: 100%;
+    box-sizing: border-box;
+    border: 1px solid red;
+    display: flex;
+    gap:8px;
+    margin: 5;
+}
+
+.p1 a{
+    color: aquamarine;
+}
+.p1 img{
+     width: 96px;
+    height: 96px;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.suggest {
+    margin:20 20 0 20;
+    color: aquamarine;
+}
+
+label, input {
+    margin: 0 20 10 20;
+    display:block
+}
+
+input[type=text] {
+    margin-bottom: 25;
+       border: 2px solid #7facaa;
+       width: 500px;
+       font-size: 24px;
+       padding: 7px;
+}
+
+textarea {
+     margin:0 20 25 20;
+       border: 2px solid #7facaa;
+       width: 500px;
+       height: 100px;
+       padding: 7px;
+       font-size: 24px;
+}
+label {
+    margin-bottom: 10px;
+}
+
+input[type=checkbox],label[for=new] {
+      display: inline-block;
+    vertical-align: middle;
+margin: 0 0 0 20;
+}
